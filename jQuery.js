@@ -1,6 +1,6 @@
 /*              
 
-***** Ways to set up jQuery *****
+******* Ways to set up jQuery *******
 
 
 
@@ -31,5 +31,30 @@ Microsoft CDN code below:
 According to the jQuery Tutorial we are working though using the CDN linked method is faster
 compared to local version. This is only faster by a few milliseconds. but seems to be the better 
 choice for me.
+
+
+******* jQuery Basics *******
+
+$ sign - This the alias for the function called jQuery. ways it can be written are as $() or jQuery().
+it is essentially a shortcut for JavaScript's findElementByID(), findElementByClass and so on.
+
+basic syntax: " $(selector).action() "
+
+$ sign to define the html element, then .action for an action to be performed on the elements.
+
+selectors:
+
+$("a") - all anchor tags
+$("p") - all paragrah tags
+$("p.main") - all paragraph tags with a class of main
+
+class names when referenced a period ( . ) must be used before the class name. for example
+
+$(".main") - would call all elements with the class name of main.
+
+when ID's are referenced they must have a ( # ) tag before the name. for example
+
+$("#main") - would call the element with the ID of main
+
 
 */
