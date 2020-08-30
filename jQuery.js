@@ -33,7 +33,11 @@ compared to local version. This is only faster by a few milliseconds. but seems 
 choice for me.
 
 
+
+
 ******* jQuery Basics *******
+
+
 
 $ sign - This the alias for the function called jQuery. ways it can be written are as $() or jQuery().
 it is essentially a shortcut for JavaScript's findElementByID(), findElementByClass and so on.
@@ -57,4 +61,24 @@ when ID's are referenced they must have a ( # ) tag before the name. for example
 $("#main") - would call the element with the ID of main
 
 
+jQuery Selectors - these are strings that allow to target elements of your html files. and perform
+actions and events to the selected elements.
+
+Three main ways to select elements are.
+
+Based on the element name, for example: $("a")
+
+Based on the element ID, for example: $("#ID")
+
+Based on the elements class attribute, for example: $(".className")
+
+
+
+
+******* jQuery $(document).ready() function *******
+
+syntax: - $(document).ready( function )
+
+this document ready event occurs when the Document object model has been loaded.
+this event only gets triggered once all assets have been completely received.
 */
